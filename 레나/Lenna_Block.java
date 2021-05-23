@@ -6,7 +6,7 @@ public class Lenna_Block {
         try{
             InputStream lenna_ByteI = new FileInputStream("lenna.png");
             OutputStream lenna_ByteO = new FileOutputStream("lenna_Block_copy.png");
-            byte buff[]=new byte[1024];
+            byte buff[]=new byte[4];
             int n;
             while((n=lenna_ByteI.read(buff))!=-1){
             
